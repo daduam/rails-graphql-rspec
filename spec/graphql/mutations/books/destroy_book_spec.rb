@@ -3,7 +3,7 @@ require "rails_helper"
 module Mutations
   module Books
     RSpec.describe DestroyBook, type: :request do
-      describe "resolve" do
+      describe ".resolve" do
         it "removes a book" do
           book = create(:book)
 
